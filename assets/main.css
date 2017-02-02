@@ -1,0 +1,219 @@
+header{
+	padding-top:30px;
+	padding-bottom:60px;
+	color:white;
+}
+
+header a{
+	text-decoration: none;
+	color:white;
+}
+
+.welcome{
+	text-align: center;
+	padding-top: 90px;
+}
+
+.heading{
+	padding-top:30px;
+	text-align: center;
+	font-weight: bolder;
+	font-size:20px;
+}
+
+.hButton{
+	padding-top:40px;
+	text-align: center;
+}
+
+.tell_me{
+	text-decoration: none;
+	display:inline-block;
+	background-color: rgb(254,209,54);
+	color:white;
+	padding:10px;
+
+}
+
+.tell_me:link {
+    text-decoration: none;
+}
+
+#services{
+	background-color:white;
+}
+
+.servHeading{
+	padding-top:60px;
+	font-weight: bold;
+	font-size:17px;
+	text-align:center;
+}
+
+.servSmall{
+	font-size:14px;
+	color:grey;
+	text-align:center;
+	padding-top:10px;
+}
+
+.servIcons{
+	padding:60px;
+}
+
+.iconT{
+	color:rgb(254,209,54);
+}
+
+.centerT{
+	text-align:center;
+}
+
+#PortFolio{
+	background-color: lightgray;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#about{
+	background-color: white;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+
+}
+
+#skills{
+	background-color: lightgray;
+	color:black;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#team{
+	background-color: white;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+
+
+.textT{
+	padding-left:20px;
+	padding-right:20px;
+}
+#contact{
+	color:white;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.formT{
+	padding-top:40px;
+}
+
+.formT input{
+	margin:5px;
+}
+
+footer{
+	background-color: lightgray;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.slideT>img{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.mySlide{
+	padding-top: 30px;
+	width:70%;
+	margin:auto;
+}
+
+/*.bx-wrapper, .bx-viewport {
+	height: 600px !important;
+}*/
+
+.container-fluid{
+	background-image: url("./images/back.jpg");
+}
+
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: deepskyblue;
+}
+
+
+
+.back-to-top i {
+
+  font-size: 60px;
+
+}
+
+.skill_ul>li{
+	color:black;
+	padding:0;
+	width:50%;
+}
+
+.center{
+	text-align: center;
+	margin:auto;
+	margin-left: 20%;
+}
+
+/*navbar*/
+.navbar, .navbar-inverse {
+	background-color: #051525!important;
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+
+.nav li {
+	display: inline;
+}
+
+#logoT{
+	padding-right: 400px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+	color:whitesmoke !important;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 45px 33px 45px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	/*background-color: #444444;*/
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+.iSuccess, .iErrors{
+	margin-top: 10px !important;
+	display: none;
+	width:80%;
+	margin:auto;
+}
